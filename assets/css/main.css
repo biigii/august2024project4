@@ -1,11 +1,21 @@
-.important {
-    font-weight: bold;
+h1 {
+  text-align: center;
+  font-size: 60px;
+  text-transform: capitalize;
 }
 
-.emphasis {
-    font-style: italic;
+nav {
+  text-align: center;
 }
 
-strong {
-    font-weight: normal;
+/* this means find the nav element and apply styling to all the a tags inside the nav so the <a> outside nav won't get it */
+nav a {
+  color: red;
 }
+
+/* a {
+  font-size: 24px;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+} */
