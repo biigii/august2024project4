@@ -1,7 +1,11 @@
-body {
-    background-color: lightgreen;
+.important {
+    font-weight: bold;
 }
 
-h1 {
-    
+.emphasis {
+    font-style: italic;
+}
+
+strong {
+    font-weight: normal;
 }
